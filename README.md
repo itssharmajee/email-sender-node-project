@@ -19,17 +19,13 @@ It automatically sends emails to HRs using **email IDs stored in an Excel file**
 
 ---
 
-## 📊 Excel File Format
-
-Create an Excel file named **`HR_Emails.xlsx`** with the following structure:
-
 | Column | Header  | Description                |
 | ------ | ------- | -------------------------- |
-| A      | Name    | HR name (optional)         |
-| B      | Company | Company name (optional)    |
+| A      | SNo     | Serial number (optional)   |
+| B      | Name    | HR name (optional)         |
 | C      | Email   | **HR email ID (required)** |
-
-> ⚠️ **Important:** Email IDs must be in **Column C**
+| D      | Title   | HR job title (optional)    |
+| E      | Company | Company name (optional)    |
 
 ---
 
